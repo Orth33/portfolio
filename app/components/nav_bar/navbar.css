@@ -1,0 +1,18 @@
+.nav_action{
+    user-select: none;
+    cursor: pointer;
+    height: 24px;
+    color: black;
+    font-size: 13px;
+    display: flex;
+    border-radius: 5px;
+    align-items: center;
+    padding-left: 10px;
+    padding-right: 10px;
+    background: var(--colorPrimary);
+    transition: all ease-in-out 0.2s;
+}
+
+.nav_action:hover{
+    background: var(--colorForeground);
+}

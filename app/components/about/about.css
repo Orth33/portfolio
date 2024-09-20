@@ -1,0 +1,22 @@
+.about_main {
+    transform: scale(0);
+    animation: scale both;
+    animation-timeline: scroll();
+}
+
+@keyframes scale {
+    20% {
+        transform: scale(0.5);
+    }
+
+    30% {
+        transform: scale(0.7);
+    }
+
+    70% {
+        transform: scale(1);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
